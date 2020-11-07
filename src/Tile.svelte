@@ -3,10 +3,16 @@
 </script>
 
 <style>
-  div {
+  .tile {
     border: 1px solid black;
     width: 75px;
     height: 75px;
+
+  }
+
+  .tile:hover {
+    background-color: lightblue;
+
   }
 
   .content {
@@ -16,6 +22,6 @@
   }
 </style>
 
-<div>
+<div class="tile">
   <div class="content">{node.position}</div>
 </div>
