@@ -1,7 +1,8 @@
-export default function createNode(position) {
+export default function createNode(position, style) {
   return {
     position,
     piece: null,
-    occupied: false
+    occupied: false,
+    style
   }
 }
